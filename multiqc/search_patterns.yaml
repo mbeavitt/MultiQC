@@ -8,6 +8,10 @@ adapterremoval:
   fn: "*.settings"
   contents: "AdapterRemoval"
   num_lines: 1
+repaq:
+  fn: "*.repaq.json"
+  contents: "fastq_reads"
+  num_lines: 10
 afterqc:
   fn: "*.json"
   contents: "allow_mismatch_in_poly"
